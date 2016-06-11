@@ -443,8 +443,8 @@
            * @desc scroll the window to the last message
           */
           function scrollToLast() {
-            $location.hash('msg_' + lastMsgId);
-            $anchorScroll();
+            //$location.hash('msg_' + lastMsgId);
+            //$anchorScroll();
           }
 
           /**

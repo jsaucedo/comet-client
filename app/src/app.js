@@ -29,7 +29,8 @@
             'ui.select',
             'sticky',
             'trello',
-            'wysiwyg.module'
+            'wysiwyg.module',
+            'infinite-scroll'
         ])
         .run(function($rootScope, $state, $stateParams, helpersService){
           $rootScope.helpers = helpersService;
